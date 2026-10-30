@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AirPad - Your phone as a wireless touchpad and keyboard</title>
+<meta name="description" content="Free and open source. Control your laptop from your phone over WiFi. No account, no cloud, no app to install on the phone.">
+<meta name="theme-color" content="#06070b"><link rel="icon" href="icon-192.png">
+<style>
+:root{--bg:#06070b;--s:rgba(255,255,255,.06);--l:rgba(255,255,255,.1);--a:#0a84ff;--a2:#5e5ce6;--t:#f5f5f7;--m:#8e8e93}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(90% 50% at 50% -5%,rgba(94,92,230,.35),transparent 70%),var(--bg);color:var(--t);font:400 17px/1.6 -apple-system,"SF Pro Text","Segoe UI",Roboto,system-ui,sans-serif}
+.w{max-width:980px;margin:0 auto;padding:0 22px}
+nav{display:flex;justify-content:space-between;align-items:center;height:68px}
+.br{display:flex;align-items:center;gap:10px;font-weight:700;font-size:20px;letter-spacing:-.4px}.br img{width:34px;border-radius:10px}
+nav a{color:var(--m);text-decoration:none;margin-left:22px;font-size:15px}nav a:hover{color:var(--t)}
+.hero{text-align:center;padding:56px 0 40px}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.05;letter-spacing:-.04em;margin:0 0 18px;background:linear-gradient(180deg,#fff,#a8b4ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--m);max-width:560px;margin:0 auto 30px;font-size:19px}
+.btn{display:inline-block;padding:15px 28px;border-radius:16px;font-weight:600;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--a),var(--a2));margin:6px;box-shadow:0 8px 30px rgba(10,132,255,.35)}
+.btn.g{background:var(--s);border:1px solid var(--l);box-shadow:none}
+.mock{width:min(300px,80%);aspect-ratio:3/4;margin:44px auto 0;border-radius:36px;border:1px solid var(--l);position:relative;background:radial-gradient(circle at 50% 38%,rgba(10,132,255,.35),transparent 58%),var(--s);box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.mock i{position:absolute;bottom:18px;right:18px;padding:11px 20px;border-radius:15px;font:600 14px system-ui;font-style:normal;background:linear-gradient(135deg,var(--a),var(--a2))}
+.mock b{position:absolute;bottom:18px;left:18px;padding:11px 18px;border-radius:15px;font:600 14px system-ui;color:var(--m);background:var(--s);border:1px solid var(--l)}
+h2{font-size:32px;letter-spacing:-.03em;margin:70px 0 22px;text-align:center}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.c{padding:24px;border-radius:24px;background:var(--s);border:1px solid var(--l)}.c h3{margin:0 0 6px;font-size:18px}.c p{margin:0;color:var(--m);font-size:15.5px}
+.n{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--a),var(--a2));font-weight:700;margin-bottom:14px}
+details{padding:18px 22px;border-radius:20px;background:var(--s);border:1px solid var(--l);margin-bottom:10px}summary{cursor:pointer;font-weight:600}details p{color:var(--m);margin:10px 0 0;font-size:16px}
+code{background:rgba(255,255,255,.1);padding:2px 7px;border-radius:7px;font-size:14px}
+footer{text-align:center;color:var(--m);font-size:14px;padding:60px 0 40px}footer a{color:var(--m)}
+</style></head><body><div class="w">
+<nav><div class="br"><img src="icon-192.png" alt="">AirPad</div><div><a href="#how">How it works</a><a href="#faq">FAQ</a><a data-gh="" href="#">GitHub</a></div></nav>
+<section class="hero"><h1>Your phone is now<br>your laptop's touchpad.</h1>
+<p>Free and open source. Move the cursor, type, scroll, present and see your screen, all over your own WiFi. No account, no cloud, nothing to install on the phone.</p>
+<a class="btn" data-gh="/releases/latest" href="#">Download for Windows</a><a class="btn g" data-gh="" href="#">View on GitHub</a>
+<div class="mock"><b>Normal</b><i>Enter</i></div></section>
+<h2 id="how">Connected in 3 steps</h2>
+<div class="g3"><div class="c"><div class="n">1</div><h3>Run AirPad</h3><p>Download <code>AirPad.exe</code>, open it, and allow the Windows Firewall prompt for private networks.</p></div>
+<div class="c"><div class="n">2</div><h3>Scan the QR</h3><p>A pairing page opens on your laptop. Scan it with your phone camera while on the same WiFi.</p></div>
+<div class="c"><div class="n">3</div><h3>Control</h3><p>You are signed in automatically. The pairing page turns green when your phone is connected.</p></div></div>
+<h2>Everything you need</h2>
+<div class="g3"><div class="c"><h3>Real touchpad</h3><p>Tap, right-click, drag, momentum scroll and three-finger swipes.</p></div>
+<div class="c"><h3>Live screen</h3><p>See your laptop on the phone and tap to click.</p></div>
+<div class="c"><h3>Keyboard and shortcuts</h3><p>Type from your phone, send media keys, presenter controls and shortcuts.</p></div>
+<div class="c"><h3>Clipboard and files</h3><p>AirDrop-style: send photos from your phone, pick up files from your laptop.</p></div>
+<div class="c"><h3>Power controls</h3><p>Lock, sleep, restart or shut down with a safe press-and-hold.</p></div>
+<div class="c"><h3>Private by design</h3><p>PIN protected, local network only, public internet addresses are rejected.</p></div></div>
+<h2 id="faq">Questions</h2>
+<details><summary>Is it free?</summary><p>Yes. AirPad is open source under the MIT license. No subscription, no ads.</p></details>
+<details><summary>Does it need internet?</summary><p>No. Your laptop and phone only need to be on the same WiFi. Your keystrokes and screen never leave your network.</p></details>
+<details><summary>My phone cannot open the page</summary><p>Open <code>http://LAPTOP-IP:8765/health</code> on the phone. Try every address on the pairing page, turn off VPNs and mobile data. Guest WiFi blocks this, so use your phone hotspot instead.</p></details>
+<details><summary>Mac and Linux?</summary><p>Run it from source: <code>pip install -r requirements.txt</code> then <code>python server.py</code>. macOS needs Accessibility permission. Linux needs X11.</p></details>
+<details><summary>Windows says "Unknown publisher"</summary><p>The app is not code signed yet. Choose More info, then Run anyway. The exe is built by GitHub Actions from the public source.</p></details>
+<footer>AirPad is open source (MIT). <a data-gh="/issues" href="#">Report a bug</a> · <a data-gh="/blob/main/SECURITY.md" href="#">Security</a></footer>
+</div>
+<script>const gh=location.hostname.endsWith('github.io'),u=gh?location.hostname.split('.')[0]:'YOUR_USERNAME',r=gh?(location.pathname.split('/')[1]||u+'.github.io'):'airpad';
+document.querySelectorAll('[data-gh]').forEach(a=>a.href='https://github.com/'+u+'/'+r+a.dataset.gh)</script></body></html>
