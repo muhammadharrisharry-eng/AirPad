@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/airpad?style=flat-square)](https://github.com/YOUR_USERNAME/airpad/stargazers)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/airpad/total?style=flat-square)](https://github.com/YOUR_USERNAME/airpad/releases)
+[![GitHub stars](https://img.shields.io/github/stars/muhammadharrisharry-eng/AirPad?style=flat-square)](https://github.com/muhammadharrisharry-eng/AirPad/stargazers)
+[![Downloads](https://img.shields.io/github/downloads/muhammadharrisharry-eng/AirPad/total?style=flat-square)](https://github.com/muhammadharrisharry-eng/AirPad/releases)
 
 # AirPad
 
@@ -13,14 +13,14 @@ Your phone becomes a real wireless touchpad, keyboard and remote for your laptop
 📱 **Works everywhere**: Windows, Mac, Linux. iPhone, Android, tablet  
 🆓 **Truly free**: MIT open source, no ads, no premium  
 
-[Download (Windows)](https://github.com/YOUR_USERNAME/airpad/releases/latest) · [Website](https://YOUR_USERNAME.github.io/airpad) · [Features](#-features) · [FAQ](#-faq)
+[Download (Windows)](https://github.com/muhammadharrisharry-eng/AirPad/releases/latest) · [Website](https://muhammadharrisharry-eng.github.io/AirPad) · [Features](#-features) · [FAQ](#-faq)
 
 ---
 
 ## ⚡ Quick Start
 
 **Windows:**
-1. Download `AirPad.exe` from [Releases](https://github.com/YOUR_USERNAME/airpad/releases/latest)
+1. Download `AirPad.exe` from [Releases](https://github.com/muhammadharrisharry-eng/AirPad/releases/latest)
 2. Run it, click **Allow** on the Firewall prompt (private networks)
 3. A pairing page opens. Scan the QR with your phone camera (same WiFi)
 4. Done. Your phone controls your laptop
@@ -166,7 +166,7 @@ Other phone-remote apps I tried were slow to respond and kept the good features 
 
 ---
 
-**Questions?** Open an [issue](https://github.com/YOUR_USERNAME/airpad/issues) or check [SECURITY.md](SECURITY.md) for vulnerability reports.
+**Questions?** Open an [issue](https://github.com/muhammadharrisharry-eng/AirPad/issues) or check [SECURITY.md](SECURITY.md) for vulnerability reports.
 
-**Like it?** Star the repo ⭐ and [share it](https://github.com/YOUR_USERNAME/airpad) with someone who presents, codes or just moves their laptop around a lot.
+**Like it?** Star the repo ⭐ and [share it](https://github.com/muhammadharrisharry-eng/AirPad) with someone who presents, codes or just moves their laptop around a lot.
 
